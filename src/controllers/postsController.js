@@ -46,7 +46,7 @@ export async function atualizarNovoPost(req, res) {
 
         const post = {
             imgUrl: urlImagem,
-            descricao: req.body.descricao,
+            descricao: descricao,
             alt: req.body.alt
         }
 
